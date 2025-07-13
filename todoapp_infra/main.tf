@@ -6,7 +6,7 @@ module "resource_group" {
 
 module "resource_group" {
   source              = "../module/resource_group"
-  resource_group_name = "abc-todoapp-rg1"
+  resource_group_name = "abc-todoapp-rg2"
   location            = "westus"
 }
 
