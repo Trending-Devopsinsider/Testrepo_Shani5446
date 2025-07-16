@@ -9,4 +9,4 @@ resource "azurerm_mssql_database" "mssql_database12" {
         type = string
   }
 
-
+# new comment for testinng
