@@ -9,7 +9,6 @@ module "resource_group" {
   resource_group_name = "abc-todoapp-rg2"
   location            = "westus"
 }
-
 module "virtual_network" {
   depends_on              = [module.resource_group]
   source                  = "../module/Azurerm_virtual_network"
